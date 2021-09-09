@@ -41,7 +41,7 @@ struct ContentView: View {
         }
     }
     
-    func startButtonTapped() {
+    private func startButtonTapped() {
         buttonText = "Next"
         stateTrafficLight += 1
         if stateTrafficLight > 3 {
